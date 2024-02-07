@@ -177,7 +177,7 @@ const Chanticleer = localFont({
 });
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html className={`scroll-smooth bg-emerald-900 selection:bg-yellow-500/50 ${Chanticleer.className} ${Huntsman.variable}`} lang={locale}>
+    <html className={`scroll-smooth bg-emerald-900 selection:bg-red-500/50 ${Chanticleer.className} ${Huntsman.variable}`} lang={locale}>
       <body className="flex flex-col min-h-screen text-white text-lg bg-gradient-to-br from-emerald-800 to-emerald-950">
         {children}
       </body>
