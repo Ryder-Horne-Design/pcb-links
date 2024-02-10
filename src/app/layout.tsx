@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: title,
     images: [
       {
-        url: "/images/banner.webp",
+        url: "/banner.webp",
         width: 1200,
         height: 630,
         alt: `Banner for ${title}`,
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description: description,
     images: [
       {
-        url: "/images/banner.webp",
+        url: "/banner.webp",
         width: 1200,
         height: 630,
         alt: `Banner for ${title}`,
